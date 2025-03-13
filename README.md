@@ -17,8 +17,3 @@ minecraft-server-website
 ├── package.json              # npm configuration file
 └── README.md                 # Project documentation
 ```
-
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
