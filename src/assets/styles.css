@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.server-status {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.server-status.online {
+    border-color: green;
+}
+
+.server-status.offline {
+    border-color: red;
+}
+
+.online {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.offline {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.copy-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background-color: #0056b3;
+}
+
+iframe {
+    border: none;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

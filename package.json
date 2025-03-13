@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-server-website",
+  "version": "1.0.0",
+  "description": "A simple website project for a Minecraft server that displays server status and allows users to copy the server IP.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

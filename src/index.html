@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <h1>Welcome to Our Minecraft Server</h1>
+    <iframe src="components/server-status-widget.html" width="300" height="150"></iframe>
+    <button id="copy-ip-btn">Copy IP</button>
+    <script>
+        document.getElementById('copy-ip-btn').addEventListener('click', () => {
+            const ip = 'course-survivor.gl.joinmc.link';
+            navigator.clipboard.writeText(ip).then(() => {
+                alert('IP Address copied to clipboard');
+            }).catch(err => {
+                console.error('Failed to copy IP address: ', err);
+            });
+        });
+    </script>
+</body>
+</html>
